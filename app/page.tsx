@@ -180,7 +180,7 @@ export default function Page() {
                   className="bg-background border border-border rounded-xl overflow-hidden hover:border-primary transition-all duration-300 group"
                   whileHover={{ y: -4, boxShadow: '0 8px 30px rgba(0,0,0,0.2)' }}
                 >
-                  <div className="grid md:grid-cols-2 gap-6 p-8">
+                  <div className="grid md:grid-cols-2 gap-4 p-8">
                     <div className="space-y-4">
                       <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
                         {project.title}
@@ -208,11 +208,11 @@ export default function Page() {
                         </a>
                       </div>
                     </div>
-                    <div className="relative h-64 w-190 md:h-auto rounded-lg overflow-hidden border border-border">
+                    <div className="relative h-32 sm:h-48 rounded-lg overflow-hidden border border-border order-1 md:order-2">
                       <img
                         src="/wanderlust.png"
                         alt="WanderLust Project"
-                        className="w-200 w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                     </div>
